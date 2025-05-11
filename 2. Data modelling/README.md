@@ -46,8 +46,8 @@ The hospital ER data model follows a star schema structure optimized for analyti
 
 ## Data Loading Strategy
 
-**Dimension Tables First**:
-   - Load static reference data (departments, time slots)  
-   - Process patient demographics with deduplication  
+- Data Import: I imported the raw data (transformed during the Data Preparation phase) into the MySQL database using SQL commands. During this process, I ensured the data was correctly mapped to the corresponding columns in the tables.
+
+- Data Integrity: For columns with empty string records (identified during the Data Preparation phase), I converted those to NULL values to accurately represent missing data. 
 
 ## Entity-Relationship Diagram
