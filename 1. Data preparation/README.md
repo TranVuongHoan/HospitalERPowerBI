@@ -48,8 +48,5 @@ The dataset provided contains patient visit information with the following field
 - **Visit ID Creation**  
   Add unique `visit_id` for each record
 
-- **Age Group Categorization**  
-  Create bins:  
-  ```python
-  bins = [0, 12, 18, 65, 120]
-  labels = ['pediatric', 'adolescent', 'adult', 'senior']
+![Data](image/hospital_data.png)
+
