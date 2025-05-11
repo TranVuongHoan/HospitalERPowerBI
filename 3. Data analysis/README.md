@@ -103,3 +103,6 @@
    - Add trend lines for key metrics
    - Include comparative benchmarks
    - Improve labeling consistency
+
+![Data](image/hospital_1.png)
+![Data](image/hospital_2.png)
