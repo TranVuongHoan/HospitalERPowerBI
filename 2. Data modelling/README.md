@@ -51,3 +51,4 @@ The hospital ER data model follows a star schema structure optimized for analyti
 - Data Integrity: For columns with empty string records (identified during the Data Preparation phase), I converted those to NULL values to accurately represent missing data. 
 
 ## Entity-Relationship Diagram
+![Data](hospital_model.png)
