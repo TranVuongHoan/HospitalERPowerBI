@@ -37,10 +37,14 @@ The primary goals of this analysis are to:
   - Categorized continuous variables (age groups, wait time buckets)
   - Handled missing satisfaction scores (7.5% of records)
 
+![Data](image/hospital_data.png)
+
 ### 2. Data Modeling
 - **Schema Structure**:
   - Implemented star schema with fact_visits central table
   - Created dimensions for time, patients, and departments
+
+![Data](image/hospital_model.png)
 
 ## 3. Data Analysis
 
@@ -62,6 +66,7 @@ The primary goals of this analysis are to:
 - Seniors (65+) report highest satisfaction (5.9)  
 - Young adults (18-24) report lowest (4.8)  
 
+![Data](image/hospital_1.png)
 ---
 
 ## 4. Report Creation
@@ -71,7 +76,7 @@ The primary goals of this analysis are to:
 - Department performance benchmarking  
 - Satisfaction score predictors analysis  
 
-**Access the Dashboard**: [Hospital ER Dashboard](#)  
+![Data](image/hospital_2.png)
 
 ### Key Visualizations:
 - Heatmaps of hourly/weekly demand  
